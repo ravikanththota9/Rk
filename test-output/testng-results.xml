@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[testcase {"id":2,"coursename":"sql","coursetype":"online"}]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="196" started-at="2016-10-23T17:57:07Z" finished-at="2016-10-23T17:57:07Z">
+    <groups>
+    </groups>
+    <test name="overrideTest" duration-ms="196" started-at="2016-10-23T17:57:07Z" finished-at="2016-10-23T17:57:07Z">
+      <class name="suite1.TestNGSimpleOverridesTest">
+        <test-method status="PASS" signature="OR_Positive_Basic_OverrideCount_TC101()[pri:0, instance:suite1.TestNGSimpleOverridesTest@ea639]" name="OR_Positive_Basic_OverrideCount_TC101" duration-ms="184" started-at="2016-10-23T23:27:07Z" finished-at="2016-10-23T23:27:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testcase {"id":2,"coursename":"sql","coursetype":"online"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OR_Positive_Basic_OverrideCount_TC101 -->
+      </class> <!-- suite1.TestNGSimpleOverridesTest -->
+    </test> <!-- overrideTest -->
+  </suite> <!-- suite1 -->
+</testng-results>

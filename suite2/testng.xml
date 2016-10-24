@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite2">
+<listeners>
+    <!--<listener class-name="CustomReporter" />-->
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+  </listeners>
+  
+   <test name="dataloadTest">   
+   <groups>
+	    <run>
+		<include name="dt.*" />
+	    </run>
+	</groups>
+    <classes>
+       <class name="suite2.TestNGSimpleDataloadTest"/>
+    </classes>
+  </test>
+</suite>

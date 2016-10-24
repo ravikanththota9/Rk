@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="overrideTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.184">
+  <properties />
+  
+  
+            <testcase name="OR_Positive_Basic_OverrideCount_TC101" time="0.184" classname="suite1.TestNGSimpleOverridesTest" />
+      
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="overrideTest(failed)">
+    <classes>
+      <class name="suite1.TestNGSimpleOverridesTest">
+        <methods>
+          <include name="OR_Positive_Basic_OverrideCount_TC101"/>
+        </methods>
+      </class> <!-- suite1.TestNGSimpleOverridesTest -->
+    </classes>
+  </test> <!-- overrideTest(failed) -->
+</suite> <!-- Failed suite [suite1] -->
